@@ -3,38 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my portfolio</title>
+    <title>Princi Kumari | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Princi kumari</h1>
-    <h2>About me</h2>
-    <img src="princi.jpeg.jpeg"alt="princi's photo" width="200" style="border-radius:10px,">
-    <pre>I am Princi kumari,a B.tech IT student passionate about web development.
-I am currently learning web technologies and building projects to secure an internship and grow my skills</pre>
 
-    <h2>Skills</h2>
-    <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    </ul>
-    <h1>Education</h1>
-    <p>B.Tech(IT)</p>
+    <nav class="navbar">
+        <div class="logo">PK</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <h2>Project</h2>
-    <p>Portfolio Website</p>
+    <header id="about" class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Princi Kumari</span></h1>
+            <h3>B.Tech IT Student & Web Developer</h3>
+            <p>I am passionate about learning web technologies and building modern web applications. Currently focusing on mastering front-end development and creating impactful projects to secure an internship.</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/princi.jpeg.jpeg" alt="Princi Kumari">
+        </div>
+    </header>
 
-    <h2>Contact</h2>
-    <p>Email:princig6653@gmail.com</p>
-    <p>
-        instagram:
-    <a href="https://www.instagram.com/_.princii_.16"
-    target=""_blank">
-    _.princii_.16
-</a>
-</p>
-<h2>career Goal</h2>
-<p>i want to become a software developer</p>
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Responsive Design</span>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>A clean, professional personal portfolio built from scratch using semantic HTML5 and modern CSS3 layouts to showcase my technical skills and academic background.</p>
+                <div class="project-tech">
+                    <span>HTML5</span> <span>CSS3</span> <span>Responsive</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        <p>Let's connect! Feel free to reach out to me for internship opportunities or collaborations.</p>
+        <div class="contact-links">
+            <p>📧 Email: <a href="mailto:princig6653@gmail.com">princig6653@gmail.com</a></p>
+            <p>📸 Instagram: <a href="https://www.instagram.com/_.princii._.16" target="_blank">_.princii._.16</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Princi Kumari. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
